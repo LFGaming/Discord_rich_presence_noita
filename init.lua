@@ -159,7 +159,7 @@ function OnPlayerSpawned( player_entity )
             end
             discordRPC.runCallbacks()
         end
-        wait(60) --885
+        wait(60) --885 --60
     end)
 end
 
