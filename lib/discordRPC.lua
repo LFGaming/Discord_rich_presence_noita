@@ -1,5 +1,5 @@
 local ffi = require "ffi"
-local discordRPClib = ffi.load("mods/discord_link/bin/discord-rpc")
+local discordRPClib = ffi.load("mods/Discord_rich_presence_noita/bin/discord-rpc")
 
 ffi.cdef[[
 typedef struct DiscordRichPresence {

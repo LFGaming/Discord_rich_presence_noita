@@ -1,7 +1,7 @@
-package.path = package.path .. ";.\\mods\\discord_link\\lib\\?.lua"
-package.cpath = package.cpath .. ";.\\mods\\discord_link\\bin\\?.dll"
+package.path = package.path .. ";.\\mods\\Discord_rich_presence_noita\\lib\\?.lua"
+package.cpath = package.cpath .. ";.\\mods\\Discord_rich_presence_noita\\bin\\?.dll"
 
-dofile_once("mods/discord_link/lib/coroutines.lua")
+dofile_once("mods/Discord_rich_presence_noita/lib/coroutines.lua")
 
 local discordRPC = require("discordRPC")
 
