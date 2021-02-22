@@ -135,7 +135,6 @@ function OnPlayerSpawned( player_entity )
                     local cur_hp = math.floor(tonumber(ComponentGetValue2(damagemodel, "hp")) * 25)
                     
                     presence.state = "Health: "..tostring(cur_hp).." / "..tostring(max_hp)
-                       
                     --GamePrint(presence.state)
                 end
             end
