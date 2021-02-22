@@ -149,7 +149,7 @@ function OnPlayerSpawned( player_entity )
 
         if(player == nil)then
             --if (tostring(cur_hp) == 0) then
-            presence.state = "Dead: "
+            presence.state = "Dead!"
         end
 
         if(rpc_initialized)then
