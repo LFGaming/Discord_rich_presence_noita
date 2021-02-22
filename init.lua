@@ -135,6 +135,7 @@ function OnPlayerSpawned( player_entity )
                     local cur_hp = math.floor(tonumber(ComponentGetValue2(damagemodel, "hp")) * 25)
                     
                     presence.state = "Health: "..tostring(cur_hp).." / "..tostring(max_hp)
+                       
                     --GamePrint(presence.state)
                 end
             end
@@ -145,7 +146,12 @@ function OnPlayerSpawned( player_entity )
                 presence.smallImageText = "Gold: "..tostring(money)
             end
         end
-        
+
+        if(player == nil)then
+            --if (tostring(cur_hp) == 0) then
+            presence.state = "Dead: "
+        end
+
         if(rpc_initialized)then
             if(not match_tables(presence, old_presence))then
                 discordRPC.updatePresence(presence)
@@ -153,7 +159,7 @@ function OnPlayerSpawned( player_entity )
             end
             discordRPC.runCallbacks()
         end
-        wait(885)
+        wait(60) --885
     end)
 end
 
