@@ -4,7 +4,7 @@
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/downloads-pre/LFGaming/Discord_rich_presence_noita/latest/total)
 ![GitHub Repo stars](https://img.shields.io/github/stars/LFGaming/Discord_rich_presence_noita?style=social)
 
-I found the original mod [here] and since it didn't seem to get updated and i had some ideas I have my version here on github.
+I found the original mod [here] and was made by Evaisa. and since it didn't seem to get updated and I had some ideas I have my version here on github with a few things I could think of.
 
 ## installing
 1. You can download the lates version at the [Releases] tab. Or go to the [Github.io] site where you'll find a dowload button. <br>
