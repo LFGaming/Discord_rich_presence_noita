@@ -16,7 +16,11 @@ Anything you would like to see added to the mod? Let it know in the [Issues], ma
 
 ## TODO:
 
-- [x] Add death message.
+- [x] Add death message. <br>
+<br>
+
+## Credits
+Again, I didn't make the mod it was made by Evaisa and I found it [here]. This is just my version where I (overtime) will add some things I can think of.
 
 ---
 
