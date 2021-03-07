@@ -5,7 +5,7 @@ dofile_once("mods/Discord_rich_presence_noita/lib/coroutines.lua")
 
 local discordRPC = require("discordRPC")
 
-local appId = "731521302006988890"
+local appId = "814077146904526858"
 
 function discordRPC.ready(userId, username, discriminator, avatar)
     print(string.format("Discord: ready (%s, %s, %s, %s)", userId, username, discriminator, avatar))
@@ -36,7 +36,7 @@ presence = {
     state = "Playing noita",
     details = "This is a rich presence test.",
     startTimestamp = now,
-    largeImageKey = "coverimage",
+    largeImageKey = "mines",
     smallImageKey = "goldnugget",
     smallImageText = "",
     largeImageText = "",
@@ -127,6 +127,10 @@ function OnPlayerSpawned( player_entity )
 
             
             presence.details = "Biome: "..firstToUpper(current_biome)
+
+            curbiome = tostring(current_biome):gsub("%s+", "_"):lower(curbiome)
+            --presence.details = curbiome
+            presence.largeImageKey = tostring(curbiome)
 
             local damagemodels = EntityGetComponent(player, "DamageModelComponent")
             if (damagemodels ~= nil) then
