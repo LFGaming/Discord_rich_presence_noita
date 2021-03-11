@@ -17,6 +17,8 @@ Anything you would like to see added to the mod? Let it know in the [Issues], ma
 ## TODO:
 
 - [x] Add death message. <br>
+- [ ] Polymorphed message <br>
+- [ ] Add pictures for biomes <br>
 <br>
 
 ## Credits
