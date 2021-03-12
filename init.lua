@@ -155,6 +155,21 @@ function OnPlayerSpawned( player_entity )
             presence.state = "Dead!"
         end
 
+        local polymorphed_entities = EntityGetWithTag("polymorphed")
+        if (polymorphed_entities ~= nil) then
+            for _, entity_id in ipairs(polymorphed_entities) do
+                local is_player = false
+                local game_stats_comp = EntityGetFirstComponent(entity_id, "GameStatsComponent")
+                if (game_stats_comp ~= nil) then 
+                    is_player = ComponentGetValue2(game_stats_comp, "is_player")
+                end
+                if (is_player) then
+                    --player is indeed polymorphed do your thing
+                    presence.state = "Polymorphed!"
+                end
+            end
+        end
+
         if(rpc_initialized)then
             if(not match_tables(presence, old_presence))then
                 discordRPC.updatePresence(presence)
