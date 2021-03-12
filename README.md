@@ -16,9 +16,16 @@ Anything you would like to see added to the mod? Let it know in the [Issues], ma
 
 ## TODO:
 
+- [ ] Pictures for `???` biomes <br>
+- [ ] Picture for gold nugget <br>
+- [ ] Picture for main menu <br>
+<br>
+
+## Done
+
 - [x] Add death message. <br>
 - [x] Polymorphed message <br>
-- [ ] Add pictures for biomes <br>
+- [x] Add pictures for biomes <br>
 <br>
 
 ## Credits
