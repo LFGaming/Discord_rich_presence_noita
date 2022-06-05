@@ -9,8 +9,9 @@ I found the original mod [here] and was made by Evaisa. and since it didn't seem
 ## installing
 1. You can download the lates version at the [Releases] tab. Or go to the [Github.io] site where you'll find a dowload button. <br>
 2. Unzip the .zip file in your mods folder. <br>
-3. Start the game and load the mod. <br>
-4. Good luck.
+3. Make sure the folder is called "Discord_rich_presence_noita" otherwise it will not work. <br>
+4. Start the game and load the mod. <br>
+5. Good luck.
 
 Anything you would like to see added to the mod? Let it know in the [Issues], make it yourself or contact me on discord at `LFGaming#6286`.
 
