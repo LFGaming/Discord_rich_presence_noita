@@ -13,7 +13,7 @@ I found the original mod [here] and was made by Evaisa. and since it didn't seem
 4. Start the game and load the mod. <br>
 5. Good luck.
 
-Anything you would like to see added to the mod? Let it know in the [Issues], make it yourself or contact me on discord at `LFGaming#6286`.
+Anything you would like to see added to the mod? Let it know in the [Issues], make it yourself or contact me on discord at `LFGaming#5781`.
 
 ## TODO:
 
